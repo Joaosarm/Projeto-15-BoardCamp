@@ -1,4 +1,4 @@
-import db from "../../db.js";
+import db from "../db.js";
 
 export async function getCategories(req, res) {
   try {

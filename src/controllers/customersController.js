@@ -1,4 +1,4 @@
-import db from "../../db.js";
+import db from "../db.js";
 
 export async function getCustomers(req, res) {
   const { cpf } = req.query;
